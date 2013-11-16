@@ -44,9 +44,11 @@ gem 'rake', '~> 0.9.2'
 gem 'acts_as_list'
 gem 'acts_as_tree_rails3'
 gem 'recaptcha', :require => 'recaptcha/rails', :branch => 'rails3'
+gem 'metric_fu'
+gem 'progressbar'
 
 group :development, :test do
-  gem 'ruby-debug19'
+  gem 'debugger'
   gem 'factory_girl', '~> 2.2'
   gem 'webrat'
   gem 'rspec-rails', '~> 2.0'
@@ -58,4 +60,5 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'capybara'
   gem 'railroady'
+  gem 'mysql'
 end
